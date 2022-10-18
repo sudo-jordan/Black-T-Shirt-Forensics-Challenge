@@ -1,4 +1,4 @@
-# 2016 Magnet CTF
+# Black T-Shirt Forensics Challenge
 
 ## Scenario
 Security engineers working for the HiTek Company were running a data loss prevention program. The engineers are suspicious that there has been a potential data exfiltration of sensitive company information. This prompted the creation of two forensic images of two related computers and the network traffic between them. These files were then passed off to the investigation group who were tasked to take over the files and conclude whether there was data exfiltration that occurred or not, within the HiTeK company.
