@@ -25,7 +25,7 @@ Security engineers working for the HiTek Company were running a data loss preven
       - **IPv4:** 192.168.0.8
 
 ## Network Analysis:
-- Wireshark was used for the analysis
+- Wireshark and NetworkMiner were used for the analysis
 - FTP connection between Windows machine & Linux server discovered
 - Credentials for FTP server found in plaintext:
   - **webmaster:password**
@@ -33,16 +33,12 @@ Security engineers working for the HiTek Company were running a data loss preven
     - BusinessStrategy.zip
     - Secrets.zip
 - Directories to files were then deleted on Linux server
-- The images below show the FTP server credentials shown through Wireshark & proof of exfiltration:
+- The images below show the FTP server credentials shown through Wireshark & proof of exfiltration through NetworkMiner:
 
 <details open><summary>FTP Images</summary>
 
-<center>
-<img src="https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_credentials.png?raw=true" width="815" height="514">
-![Proof of Exfiltration](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_files_found.png?raw=true)
-<img src="https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_files_found.png?raw=true">
-
-    </center>
+<img src="https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_credentials.png?raw=true" width="700" height="500">
+<img src="https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_files_found.png?raw=true" width="700" height="100">
 
 </details>
 
@@ -61,7 +57,8 @@ Security engineers working for the HiTek Company were running a data loss preven
     - BusinessStrategy.zip = **crazylongpassword**
     - Secrets.zip = **VeryLongP@ssw0rd**
 
-<details open><summary>Table of Credentials</summary>
+<details open><summary>Tables of Credentials</summary>
+    
 <center>
 
 | User Account 	    | Password	    |
@@ -92,14 +89,15 @@ The images below show the contents of **BusinessStrategy.zip** and **Secrets.zip
 
 <details open><summary>Images of ZIP Contents</summary>
 
-![BusinessStrategy.zip Contents](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/zip_contents1.png?raw=true)
-![Secrets.zip](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/zip_contents2.png?raw=true)
+<img src="https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/zip_contents1.png?raw=true" width="600" height="290">
+<img src=https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/zip_contents2.png?raw=true" width="600" height="300">
 
 </details>
 
 ## Hashes:
 
 <details open><summary>Master Hash Table</summary>
+                                                                                                                                            
 <center>
 
 |         File Name        	|             MD5 Hash             	|                SHA1 Hash                 	|
