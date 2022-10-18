@@ -53,7 +53,7 @@ Security engineers working for the HiTek Company were running a data loss preven
 - Used Ophcrack to grab NTLM hashes & cracked them
 - Ubuntu machine passwords stored in `/etc/shadow` as SHA256 hashes
     - Used John the Ripper to crack
-- Used custom wordlist to crack zip file passwords (finalword.txt)
+- Used a custom wordlist to crack zip file passwords (finalword.txt)
     - BusinessStrategy.zip = **crazylongpassword**
     - Secrets.zip = **VeryLongP@ssw0rd**
 
