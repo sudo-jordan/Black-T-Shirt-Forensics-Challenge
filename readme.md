@@ -48,10 +48,10 @@ Security engineers working for the HiTek Company were running a data loss preven
     - 2 to Ubuntu machine
     - 2 to zip files
 - 3 passwords found scattered within documents and files
-    - These credentials are for a site titled www.crazywickedawesome.com
+    - These passwords correspond with a site named www.crazywickedawesome.com
 - Windows passwords stored in `\Windows\System32\config\Sam`
 - Used Ophcrack to grab NTLM hashes & cracked them
-- Ubuntu machine passwords stored in /etc/shadow as SHA256 hashes
+- Ubuntu machine passwords stored in `/etc/shadow` as SHA256 hashes
     - Used John the Ripper to crack
 - Used custom wordlist to crack zip file passwords (finalword.txt)
     - BusinessStrategy.zip = **crazylongpassword**
