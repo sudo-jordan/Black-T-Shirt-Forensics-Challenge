@@ -37,7 +37,7 @@ Security engineers working for the HiTek Company were running a data loss preven
 
 <details open><summary>FTP Images</summary>
 
-![FTP credentials](../img/ftp_credentials.png)
+![FTP credentials](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_credentials.png?raw=true)
 ![Proof of Exfiltration](../img/ftp_files_found.png)
 
 </details>
