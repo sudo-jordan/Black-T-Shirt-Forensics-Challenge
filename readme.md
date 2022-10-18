@@ -38,7 +38,7 @@ Security engineers working for the HiTek Company were running a data loss preven
 <details open><summary>FTP Images</summary>
 
 ![FTP credentials](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_credentials.png?raw=true)
-![Proof of Exfiltration](../img/ftp_files_found.png)
+![Proof of Exfiltration](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/ftp_files_found.png?raw=true)
 
 </details>
 
@@ -88,8 +88,8 @@ The images below show the contents of **BusinessStrategy.zip** and **Secrets.zip
 
 <details open><summary>Images of ZIP Contents</summary>
 
-![BusinessStrategy.zip Contents](img/../../img/zip_contents1.png)
-![Secrets.zip](../img/zip_contents2.png)
+![BusinessStrategy.zip Contents](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/zip_contents1.png?raw=true)
+![Secrets.zip](https://github.com/sudo-jordan/Black-T-Shirt-Forensics-Challenge/blob/main/img/zip_contents2.png?raw=true)
 
 </details>
 
